@@ -1,7 +1,7 @@
 {
-  "name": "robots",
-  "version": "2.0.0",
-  "description": "study projects",
+  "name": "luckyService",
+  "version": "1.0.0",
+  "description": "landing page for promotion of Kuzbass Energy Suply Company",
   "main": "src/js/index.js",
   "scripts": {
     "stylelint": "stylelint ./src/scss",
@@ -9,8 +9,8 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "build": "webpack --mode production",
-    "watch": "webpack --watch --mode development",
-    "dev": "webpack-dev-server --open"
+    "watch": "webpack --watch ",
+    "dev": "webpack serve --open chrome --mode development"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,8 @@
     "prettier": "^2.1.2",
     "pug": "^3.0.0",
     "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.1.0",
+    "raw-loader": "^4.0.2",
     "sass-loader": "^10.0.5",
     "style-loader": "^2.0.0",
     "stylelint": "^13.8.0",
@@ -54,11 +56,12 @@
     "svg-url-loader": "^6.0.0",
     "url-loader": "^4.1.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "eslint-webpack-plugin": "^2.4.1",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "es6-promise": "^4.2.8",
+    "eslint-webpack-plugin": "^2.4.1"
   }
 }

@@ -1,10 +1,10 @@
-mixin terms-card(img_url="#")
+mixin terms-card(img_url="#", title= "test", paragraph="test")
   .terms-card   
     .terms-card__img-wrap
       img.terms-card__img(src=img_url, alt='Иконка') 
     .terms-card__text-wrap 
-      h1.terms-card__title.
-        test 
-      p.terms-card__paragraph_md.
+      h1.terms-card__title= title
+         
+      p.terms-card__paragraph_md= paragraph
         test
 

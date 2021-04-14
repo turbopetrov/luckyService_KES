@@ -1,4 +1,4 @@
-section.terms-section   
+section.terms-section(style="background: linear-gradient(180deg, #34D9C3 1.66%, rgba(52, 217, 195, 0) 100%)")   
   .container 
     .row 
       .col-lg-12 
@@ -12,7 +12,22 @@ section.terms-section
       .col-lg-5 
         .terms-section__terms-wrap
           include ../mixins/terms-card.pug
-          +terms-card("src/img/like.svg")
+          +terms-card("src/img/reg.svg",
+                      "С 1 мая по 3 июля",
+                      "Регистрируйся в мобильном приложении «Платосфера»"
+                      )
+          +terms-card("src/img/card.svg",
+                      "С 1 по 10 число",
+                      "Передавай показания через «Платосферу»"
+                      )
+          +terms-card("src/img/pay.svg",
+                      "До 25 числа",
+                      "Регистрируйся в мобильном приложении «Платосфера»"
+                      )
+          +terms-card("src/img/like.svg",
+                      "16 июля",
+                      "Мы разыграем четыре новых iPhone 12 mini"
+                      )              
           
           
 

@@ -1,0 +1,8 @@
+mixin download-card(link="#", img_url="#", text="Название сервиса", qr_url) 
+  .col-lg-4
+    .download-card__wrap 
+      a.download-card__btn(href=link, target="_blank")
+        .download-card__btn-content 
+          img.download-card__btn-img(src=img_url, alt="Ссылка на скачивание")
+          p.download-card__btn-paragraph=text
+      img.download-card__qr-link(src=qr_url, alt="") 
