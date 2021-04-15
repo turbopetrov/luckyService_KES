@@ -1,26 +1,27 @@
 section.welcome-section(style="background: linear-gradient(226.46deg, rgba(37, 70, 244, 0.63) 4.42%, rgba(74, 47, 237, 0.58) 38.51%, rgba(72, 108, 237, 0.62) 57.12%, #2F80ED 77.8%);")
         header.header 
           .container 
-            .row  
+            .row 
               .col-lg-3
                 img.header__logo(src='src/img/logo.png')
               .col-lg-7.offset-2
-                .nav  
-                  ul.header__nav-bar
-                    li.header__nav-item| Условия акции
-                    li.header__nav-item| Преимущества
-                    li.header__nav-item| Как установить
+                .nav.header__nav-bar.paragraph_md                   
+                  a.header__nav-item.white(href="#")| Условия акции
+                  a.header__nav-item.white(href="#")| Преимущества
+                  a.header__nav-item.white(href="#")| Как установить
         .welcome-section__content
           .container 
             .row  
               .col-lg-5.welcome-section__title-wrap 
-                h1.welcome-section__title| Выиграй iPhone 12 mini
+                h1.welcome-section__title.title_xl.white| Выиграй iPhone 12 mini
+              .col-lg-7.welcome-section__img-wrap
+                img.welcome-section__img(src="src/img/girl.png", alt="Потрясающий iPhone mini!")
             .row  
               .col-lg-4.welcome-section__btn-wrap
-                a.btn.welcome-section__btn(href="#").
+                a.welcome-section__btn.title_xs(href="#").
                   участвовать в акции
-          .welcome-section__img-wrap 
-            img.welcome-section__img(src="src/img/girl.png", alt="Потрясающий iPhone mini!")
+          
+            
 
 
             

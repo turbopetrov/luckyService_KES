@@ -1,0 +1,21 @@
+%btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+ }
+ .welcome-section__btn{
+  @extend %btn;
+  width: 340px;
+  height: 82px;
+  border-radius: 10px;
+  color: $yellow;
+  background-color: $blue;
+  box-shadow: 
+    4px 15px 50px 16px #106ec0,
+    -4px -9px 44px -1px #87b1ea;
+  
+  
+
+ }
+
+ 

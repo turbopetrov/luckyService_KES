@@ -1,0 +1,20 @@
+.welcome-section{
+  padding-bottom: 228px;
+  &__title-wrap{
+    margin-top: 85px;
+  }
+  &__btn-wrap{
+    margin-top: 145px;    
+  }
+
+  &__img-wrap{
+    position: relative;
+  }
+  &__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 825px;
+  }
+  
+}

@@ -1,0 +1,44 @@
+%heading{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+%paragraph{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+.title_xl{
+  @extend %heading;
+  font-size: 88px;  
+}
+.title_lg{
+  @extend %heading;
+  font-size: 46px;
+}
+.title_md{
+  @extend %heading;
+  font-size: 36px;
+}
+.title_xs{
+  @extend %heading;
+  font-size: 24px;
+  font-weight: normal;
+}
+.paragraph_xs{
+  @extend %paragraph;
+  font-size: 14px;
+}
+.paragraph_md{
+  @extend %paragraph;
+  font-size: 20px;
+}
+.paragraph_sm{
+  @extend %paragraph;
+  font-size: 16px;
+}
