@@ -1,9 +1,9 @@
-section.advant-section(style="background:url('src/img/bg-img.svg')") 
+section#advant-section.advant-section(style="background:url('src/img/bg-img.svg')") 
   .container 
     .row 
-      .col-lg-12 
-        h2.advant-section__title| ПРЕИМУЩЕСТВА ПРИЛОЖЕНИЯ 
-  hr.divider
+      .col-lg-12.d-flex.justify-content-center 
+        h2.advant-section__title.title_lg.dark| ПРЕИМУЩЕСТВА ПРИЛОЖЕНИЯ 
+  hr.divider_lg
   .container 
     .row.justify-content-lg-between 
       include ../mixins/advant-card.pug 
@@ -21,6 +21,10 @@ section.advant-section(style="background:url('src/img/bg-img.svg')")
         "src/img/pig.svg",
         "Бесплатно",
         "Приложение абсолютно бесплатно, кроме того с вас не взъимается никакой комиссии за платежи"
-      )  
+      )
+  a.advant-section__arrow-wrap(href="#download-section")
+     
+    span.advant-section__arrow.dark|> 
+    
       
 

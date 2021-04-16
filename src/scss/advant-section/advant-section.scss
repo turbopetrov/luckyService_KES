@@ -1,0 +1,24 @@
+@import './advant-card.scss';
+.advant-section{
+  padding-bottom: 117px;
+  &__title{
+    margin: 50px auto;
+    
+  }
+  &__arrow-wrap{
+    display:flex;
+    justify-content: center;
+    margin-top: 119px;
+       
+  }
+  &__arrow{
+    font-stretch: expanded;
+    font-size: 150px;
+    font-weight: bold;
+    transform: rotate(90deg);
+    transition: .3s;
+    &:hover{
+      text-shadow: 12px 0px 11px rgba(34, 75, 111, 0.65);     
+    }
+  }
+}

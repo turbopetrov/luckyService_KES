@@ -1,0 +1,17 @@
+@import './terms-card.scss';
+.terms-section{
+  padding-bottom: 60px;
+  &__title{
+    margin: 50px auto;
+  }
+  &__content-block{
+    margin-top: 60px;
+  }
+  &__img-wrap{    
+    height: 100%;
+    
+  }
+  &__img{
+    max-height: 85%;
+  }
+}

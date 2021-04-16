@@ -1,44 +1,47 @@
-section.download-section(style="background: linear-gradient(180deg, rgba(47, 128, 237, 0) 0%, rgba(47, 128, 237, 0.54) 100%)")
+section#download-section.download-section(style="background: linear-gradient(180deg, rgba(47, 128, 237, 0) 0%, rgba(47, 128, 237, 0.54) 100%)")
   .container  
     .row
-      .col-lg-12.justify-content-center 
-        h2.download-section__title| СКАЧАТЬ ПРИЛОЖЕНИЕ
-        hr.divider  
+      .col-lg-12.d-flex.justify-content-center 
+        h2.download-section__title.title_lg.dark| СКАЧАТЬ ПРИЛОЖЕНИЕ
+  hr.divider_lg  
   .container 
     .row.justify-content-lg-between 
       include ../mixins/download-card
       +download-card("https://play.google.com/store/apps/details?id=ru.nskes.paysphera",
                     "src/img/google-play.svg",
                     "Скачать в GooglePlay",
-                    "src/img/qr-google.svg"    
+                    "src/img/qr-google.svg"
+                        
       )
       +download-card("https://apps.apple.com/ru/app/%D0%BF%D0%BB%D0%B0%D1%82%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0-%D0%B6%D0%BA%D1%85-%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82/id1413093935",
                     "src/img/appstore.svg",
                     "Скачать в AppStore",
-                    "src/img/qr-apple.svg"    
+                    "src/img/qr-apple.svg"   
       )
-      +download-card("https://play.google.com/store/apps/details?id=ru.nskes.paysphera",
+      +download-card("https://www.kuzesc.ru/platosfera/Platosfera_1.4.27.apk",
                     "src/img/android.png",
                     "Скачать для Android",
-                    "src/img/qr-android.svg"    
+                    "src/img/qr-android.svg"                       
       )
-    .row.justify-content-center  
-      .col-lg-6.justify-content-between 
-        a.download-section_social-link(href="#")
-          img(src="src/img/vk.png", alt="vk.com") 
-        a.download-section_social-link(href="#")
-          img(src="src/img/ok.png", alt="Ok.ru")  
-        a.download-section_social-link(href="#")
-          img(src="src/img/insta.png", alt="Instagram.com")  
-        a.download-section_social-link(href="#")
-          img(src="src/img/ytube.png", alt="YouTube.com")
-    .row 
-      .col-lg-10 
-        p.download-section__footer-text. 
+    .row.justify-content-center.download-section__social-wrap  
+      .col-lg-6.d-flex.justify-content-between 
+        a.download-section_social-link(href="https://vk.com/kuzbassenergosbyt" target="_blank")
+          img.download-section__img(src="src/img/vk.png", alt="vk.com") 
+        a.download-section_social-link(href="https://ok.ru/kuzbassenergosbyt" target="_blank")
+          img.download-section__img(src="src/img/ok.png", alt="Ok.ru")  
+        a.download-section_social-link(href="https://www.instagram.com/kuzbassenergosbyt/" target="_blank")
+          img.download-section__img(src="src/img/insta.png", alt="Instagram.com")  
+        a.download-section_social-link(href="https://www.youtube.com/channel/UCArxh55fP1nSR8f-aYm13PQ" target="_blank")
+          img.download-section__img(src="src/img/ytube.png", alt="YouTube.com")
+    .row.d-flex.justify-content-center 
+      .col-lg-10.download-section__footer 
+        p.download-section__footer-text.paragraph_sm.dark. 
           Все расходы с оплатой налога в связи с получением 
           дохода в форме приза победитель исполняет самостоятельно 
           в соответствии с законодательством о налогах и сборах.
-          Полные правила участия ищите на сайте кузбассэнергосбыт.рф. 
-          При возникновении вопросов обращайтесь на горячую линию :
-          8-800-600-36-60     
+        p.download-section__footer-text.paragraph_sm.dark|Полные правила участия ищите на сайте: 
+          a(href="https://kuzesc.ru/?pgr=7" target='_blank') 
+            strong|кузбассэнергосбыт.рф. 
+        p.download-section__footer-text.paragraph_sm.dark|При возникновении вопросов обращайтесь на горячую линию:
+          a(href="tel:88006003660")| 8-800-600-36-60     
 

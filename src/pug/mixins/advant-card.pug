@@ -1,10 +1,10 @@
 mixin advant-card(img_url="#", title="title", paragraph="some text") 
   .col-lg-4 
     .advant-card__wrap 
-      h3.advant-card__title=title 
-      hr.divider_xs
+      h3.advant-card__title.title_xs.dark=title 
+      hr.divider_sm
       img.advant-card__img(src=img_url, alt="Иконка")
-      p.advant-card__paragraph= paragraph
-      a.advant-card__btn(href="#")| Попробовать сейчас
+      p.advant-card__paragraph.paragraph_xs.dark= paragraph      
+      a.advant-card__btn(href="#download-section")| Попробовать сейчас
 
       

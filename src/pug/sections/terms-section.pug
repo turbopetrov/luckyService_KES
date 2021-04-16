@@ -1,10 +1,10 @@
-section.terms-section(style="background: linear-gradient(180deg, #34D9C3 1.66%, rgba(52, 217, 195, 0) 100%)")   
+section#terms-section.terms-section(style="background: linear-gradient(180deg, #34D9C3 1.66%, rgba(52, 217, 195, 0) 100%)")   
   .container 
-    .row 
-      .col-lg-12 
-        h2.terms-section__tittle| Условия акции
-  hr.divider
-  .container 
+    .row.justify-content-center
+      .col-lg-12.d-flex.justufy-content-center
+        h2.terms-section__title.title_lg.dark| Условия акции    
+  hr.divider_lg
+  .container.terms-section__content-block 
     .row 
       .col-lg-6
         .terms-section__img-wrap  
@@ -22,7 +22,7 @@ section.terms-section(style="background: linear-gradient(180deg, #34D9C3 1.66%, 
                       )
           +terms-card("src/img/pay.svg",
                       "До 25 числа",
-                      "Регистрируйся в мобильном приложении «Платосфера»"
+                      "Оплачивай электроэнергию через «Платосферу»"
                       )
           +terms-card("src/img/like.svg",
                       "16 июля",

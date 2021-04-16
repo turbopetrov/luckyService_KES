@@ -1,0 +1,31 @@
+.terms-card{
+  display: flex;  
+    &__img-wrap{
+      min-height: 95px;
+      min-width: 95px;
+      margin-bottom: 50px;
+      margin-right: 40px;
+    }
+    &__circle{      
+      width: 75px;
+      height: 75px;
+      background-color: $white;
+      border-radius: 50%;
+    }
+    &__img{
+      width: 70px;
+      height: 70px;
+      margin-top: -60%;
+      margin-left: 25%;
+      
+     
+      
+    }
+    &__text-wrap{
+
+    }
+
+    &__title{
+       margin-bottom: 15px;    
+    }
+}

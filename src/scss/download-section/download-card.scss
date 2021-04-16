@@ -1,0 +1,18 @@
+.download-card{
+  margin-top: 103px;
+  &__btn-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+  }
+  &__btn-img{
+    height: 65px;
+  }
+  &__btn-paragraph{
+    display: inline-block;
+    width: 60%;
+  }
+  &__qr-link{
+    margin-top: 65px;
+  }
+}
