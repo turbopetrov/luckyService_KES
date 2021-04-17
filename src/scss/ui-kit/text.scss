@@ -13,28 +13,28 @@
 }
 .title_xl{
   @extend %heading;
-  font-size: 88px;  
+  font-size: 5.5em;  
 }
 .title_lg{
   @extend %heading;
-  font-size: 40px;
+  font-size: 2.5em;
 }
 .title_md{
   @extend %heading;
-  font-size: 36px;
+  font-size: 2.25em;
 }
 .title_xs{
   @extend %heading;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: normal;
 }
 .paragraph_xs{
   @extend %paragraph;
-  font-size: 14px;
+  font-size: .875em;
 }
 .paragraph_md{
   @extend %paragraph;
-  font-size: 20px;
+  font-size: 1.250em;
 }
 .paragraph_sm{
   @extend %paragraph;

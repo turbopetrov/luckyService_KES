@@ -11,11 +11,12 @@
     position: relative;
   }
   &__img{
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
     max-width: 825px;
-    z-index: 10;
+    z-index: -10;
   }
   
 }
