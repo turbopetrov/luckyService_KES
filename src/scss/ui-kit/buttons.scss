@@ -39,9 +39,13 @@
    background-color: rgba(172, 201, 240, 0.54);
    box-shadow: 
     4px 15px 38px 9px $blue,
-    -4px -5px 33px 6px $white;
-
-
+    -4px -5px 33px 6px $white;    
  }
+ .pressed{
+  box-shadow: 
+  inset 4px 15px 38px 9px $blue,
+  inset -4px -5px 33px 6px $white;
+}
+ 
 
  
